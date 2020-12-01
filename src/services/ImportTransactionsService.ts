@@ -3,6 +3,7 @@ import csvParse from 'csv-parse';
 import { getRepository, In, getCustomRepository } from 'typeorm';
 import fs from 'fs';
 import Category from '../models/Category';
+import Transaction from '../models/Transaction';
 import TransactionsRepository from '../repositories/TransactionsRepository';
 
 interface CSVTransaction {
